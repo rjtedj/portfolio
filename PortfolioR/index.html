@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        .active {
+            color: #f0f0f0 !important;
+        }
+
+        section {
+            padding: 100px 0;
+            min-height: 100vh;
+            background-color: #dee2e6;
+        }
+    </style>
+    <title>Home</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark header fixed-top">
+        <div class="container-fluid">
+            <a class="ml-50 navbar-brand montserrat-alternates-extrabold" href="#">Rolanie Jane</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" style="background-color: #333 !important;" tabindex="-1"
+                id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="montserrat-alternates-regular nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="montserrat-alternates-regular nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="montserrat-alternates-regular nav-link" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="montserrat-alternates-regular nav-link" href="#Projects">Projects and Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="montserrat-alternates-regular nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="landing-page text-shadow">
+        <div class="row col-md-12">
+            <div class="col-6 custom-flex">
+                <a class="landing-text black montserrat-alternates-bold lh-1">
+                    <p><span class="montserrat-alternates-extrabold fs-10 yellow">HI!</span> I'm Rolanie a
+                        </p>
+                </a>
+                <a class="landing-text blue montserrat-alternates-bold">Web Designer</a>
+                <div class="buttons">
+                    <a type="button" class="button-1 montserrat-alternates-extrabold" href="#">My Works</a>
+                    <a type="button" class="button-2 montserrat-alternates-extrabold" href="#">HIRE ME</a>
+                </div>
+            </div>
+            <div class="col-6 landing-pic">
+                <img style="width: 30vw;" src="./img/landingpic.png" alt="landingpic">
+            </div>
+        </div>
+    </div>
+
+    <!-- Section About Me -->
+    <section id="About">
+        <div class="heading-sec d-flex justify-content-center align-content-center pt-3 pb-3">
+            <p class="montserrat-alternates-extrabold fs-8 yellow align-content-center">About Me</p>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-5 aboutme-pic">
+                    <img style="height: 70vh;" src="./img/aboutme.png" alt="about-me">
+                </div>
+                <div class="col-5 custom-flex align-items-center">
+                    <a class="landing-text black montserrat-alternates-bold pb-3">
+                        <p>About Me</p>
+                    </a>
+                    <p class="fs-6 montserrat-alternates-regular lh-lg text-center">Hi! I'm Rolanie Jane 
+                        Tejada, a
+                        hard-working and driven computer science student with strong analytical thinking skills who can 
+                        work
+                        under pressure with minimal supervision.and eager to learn new things.I am currently available for 
+                        freelance work.If you have a project that you want to get started or think you need my help with 
+                        something, then get in touch.</p>
+                    <a type="button" class="button-2 mt-3 montserrat-alternates-extrabold"
+                        style="width: 250px !important;" href="./img/cv.pdf"
+                        download="RolanieJane-resume.pdf">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section My Skills -->
+    <section id="Skills">
+        <div class="heading-sec d-flex justify-content-center align-content-center pt-3 pb-3">
+            <p class="montserrat-alternates-extrabold fs-8 yellow align-content-center">My Skills</p>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p class="fs-6 pt-5 ps-5 pe-5 pb-5 montserrat-alternates-regular lh-lg text-center col-8">I have honed my
+                skills through dedication and hands-on experience in various areas of web development. From designing
+                visually appealing interfaces to writing clean and efficient code, my expertise extends to:</p>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-4 d-flex mb-4 align-items-center justify-content-center"><img src="./img/html.png"
+                        alt="HTML"></div>
+                <div class="col-4 d-flex mb-4 align-items-center justify-content-center"><img src="./img/css.png"
+                        alt="CSS"></div>
+                <div class="col-4 d-flex mb-4 align-items-center justify-content-center"><img src="./img/js.png"
+                        alt="JavaScript"></div>
+                <div class="col-4 d-flex mb-4 align-items-center justify-content-center"><img src="./img/bootstrap.png"
+                        alt="Bootstrap"></div>
+                <div class="col-4 d-flex mb-4 align-items-center justify-content-center"><img src="./img/php.png"
+                        alt="PHP"></div>
+                <div class="col-4 d-flex mb-4 align-items-center justify-content-center"><img src="./img/mysql.png"
+                        alt="MySQL"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section My Projects & Services -->
+    <section id="Projects">
+        <div class="heading-sec d-flex justify-content-center align-content-center pt-3 pb-3">
+            <p class="montserrat-alternates-extrabold fs-8 yellow align-content-center">My Projects & Services</p>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p class="fs-6 pt-5 ps-5 pe-5 pb-5 montserrat-alternates-regular lh-lg text-center col-8">As a computer
+                science
+                student passionate about developing software, I provide a variety of professional services customized to
+                meet your digital needs. Putting extra attention to detail and strive for excellence in everything I do.
+                Here is my services and Projects:</p>
+        </div>
+        <div class="container">
+            <div class="row bb pb-5">
+                <div class="col">
+                    <img style="margin: 10px; height: 50vh;" src="./img/project1.png" alt="Project 1">
+                    <div class="description">
+                        <p class="fs-6 pt-5 ps-5 pe-5 pb-5 montserrat-alternates-regular lh-lg text-center col-8">
+                            SaleSavant:POS Transaction and Management 
+                            HTML/CSS Bootstrap/JS/PHP/mySQL</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img style="margin: 10px; height: 50vh;" src="./img/project2.png" alt="Project 2">
+                    <div class="description">
+                        <p class="fs-6 pt-5 ps-5 pe-5 pb-5 montserrat-alternates-regular lh-lg text-center col-8">
+                            GYM MAnagement System <br>
+                            Html/CSS Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img style="margin: 10px; height: 50vh;" src="./img/project3.png" alt="Project 3">
+                    <div class="description" style="width: 450px;" >
+                        <p class="fs-6 pt-5 ps-5 pe-5 pb-5 montserrat-alternates-regular lh-lg text-center col-8">
+                            Calculator app
+                            Html/ CSS JS vanilla</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="services-sec d-flex justify-content-center align-content-center pt-3 pb-3">
+            <p class="montserrat-alternates-extrabold fs-8 black align-content-center text-shadow">Services</p>
+        </div>
+        <div class="container d-flex justify-content-around pb-5">
+            <div class="services-box d-flex align-items-center flex-column">
+                <a class="pt-5 pb-3 yellow fs-2"><ion-icon name="desktop-outline"></ion-icon></a>
+                <p class="fs-7 yellow montserrat-alternates-bold lh-lg text-center col-8">WEB design</p>
+            </div>
+            <div class="services-box d-flex align-items-center flex-column">
+                <a class="pt-5 pb-3 yellow fs-2"><ion-icon name="cloud-done-outline"></ion-icon></a>
+                <p class="fs-7 yellow montserrat-alternates-bold lh-lg text-center col-8">WEB DEVELOPER</p>
+            </div>
+            <div class="services-box d-flex align-items-center flex-column">
+                <a class="pt-5 pb-3 yellow fs-2"><ion-icon name="desktop-outline"></ion-icon></a>
+                <p class="fs-7 yellow montserrat-alternates-bold lh-lg text-center col-8">SOFTWARE DEVELOPING</p>
+            </div>
+        </div>
+        <div class="job-sec d-flex justify-content-center align-content-center pb-3">
+            <p class="montserrat-alternates-extrabold fs-8 black align-content-center text-shadow">I'm <span
+                    class="blue">Available</span> for Job Opportunities</p>
+        </div>
+        <div class="d-flex justify-content-center flex-column align-items-center">
+            <p class="fs-6 ps-5 pe-5 pb-3 montserrat-alternates-regular lh-lg text-center col-8"> A
+                hard-working and driven computer science student with strong analytical thinking skills who can 
+                work
+                under pressure with minimal supervision.and eager to learn new things.I am currently available for 
+                freelance work.If you have a project that you want to get started or think you need my help with 
+                something, then get in touch.</p>
+            <a type="button" class="button-2 montserrat-alternates-extrabold">HIRE ME</a>
+        </div>
+    </section>
+    <!-- Section Contact -->
+    <section class="footer" id="Contact">
+        <div class="d-flex justify-content-center align-content-center pt-3 pb-3">
+            <p class="montserrat-alternates-extrabold fs-8 white align-content-center text-shadow">Contact Me</p>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <p class="fs-6 ps-5 pe-5 pb-3 montserrat-alternates-regular lh-lg text-center col-8 white">Feel free to
+                contact me if
+                you need help with your project. 
+                Let us work together and bring your ideas to life!</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 pb-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="contact-circle d-flex align-items-center justify-content-center">
+                            <a class="fs-2 d-flex black"><ion-icon name="trail-sign-outline"></ion-icon></a>
+                        </div>
+                        <p class="pt-3 montserrat-alternates-bold text-center white">Address</p>
+                        <p class="pt-2 montserrat-alternates-regular text-center white">Vitali, <br> Zamboanga City</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 pb-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="contact-circle d-flex align-items-center justify-content-center">
+                            <a class="fs-2 d-flex black"><ion-icon name="call-outline"></ion-icon></a>
+                        </div>
+                        <p class="pt-3 montserrat-alternates-bold text-center white">Contact</p>
+                        <p class="pt-2 montserrat-alternates-regular text-center white">+63 951 941 5549</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 pb-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="contact-circle d-flex align-items-center justify-content-center">
+                            <a class="fs-2 d-flex black"><ion-icon name="mail-outline"></ion-icon></a>
+                        </div>
+                        <p class="pt-3 montserrat-alternates-bold text-center white">Email address</p>
+                        <p class="pt-2 montserrat-alternates-regular text-center white">
+                            <a class="text-decoration-none white" href="mailto:kristinmaedelossantos98@gmail.com">
+                                rolaniejanetejada@gmail.com
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 pb-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="contact-circle d-flex align-items-center justify-content-center">
+                            <a class="fs-2 d-flex black"><ion-icon name="earth-outline"></ion-icon></a>
+                        </div>
+                        <p class="pt-3 montserrat-alternates-bold text-center white">Website</p>
+                        <p class="pt-2 montserrat-alternates-regular text-center white">
+                            <a class="text-decoration-none white" href="#">www.RolanieJane.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <div class="real-footer pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class=" pt-3 montserrat-alternates-bold text-center white">About</p>
+                    <p class="pt-2 montserrat-alternates-regular text-center white">
+                        A hard-working and driven computer science 
+                        student with strong analytical thinking skill
+                    </p>
+                </div>
+                <div class="col">
+                    <p class=" pt-3 montserrat-alternates-bold text-center white">Link</p>
+                    <p class="pt-2 montserrat-alternates-regular text-center white">
+                        <a class="d-flex text-decoration-none white align-items-center justify-content-start"
+                            href="#"><ion-icon class="pe-3" name="caret-forward-outline"></ion-icon>Home</a>
+                        <a class="d-flex text-decoration-none white align-items-center justify-content-start"
+                            href="#About"><ion-icon class="pe-3" name="caret-forward-outline"></ion-icon>About</a>
+                        <a class="d-flex text-decoration-none white align-items-center justify-content-start"
+                            href="#Projects"><ion-icon class="pe-3" name="caret-forward-outline"></ion-icon>Projects</a>
+                        <a class="d-flex text-decoration-none white align-items-center justify-content-start"
+                            href="#Contact"><ion-icon class="pe-3" name="caret-forward-outline"></ion-icon>Contact</a>
+                        <br>
+                    <div class="d-flex">
+
+                    </div>
+                    </p>
+                </div>
+                <div class="col">
+                    <p class=" pt-3 montserrat-alternates-bold text-center white">Services</p>
+                    <p class="pt-2 montserrat-alternates-regular text-center white">
+                        <a class="d-flex text-decoration-none white align-items-center justify-content-start"><ion-icon
+                                class="pe-3" name="caret-forward-outline"></ion-icon>Web Design</a>
+                        <a class="d-flex text-decoration-none white align-items-center justify-content-start"><ion-icon
+                                class="pe-3" name="caret-forward-outline"></ion-icon>Software Development</a>
+                        <a class="d-flex text-decoration-none white align-items-center justify-content-start"><ion-icon
+                                class="pe-3" name="caret-forward-outline"></ion-icon>Web Development</a>
+                    </p>
+                </div>
+                <div class="col">
+                    <p class=" pt-3 montserrat-alternates-bold text-center white">Need Help?</p>
+                    <p class="pt-2 montserrat-alternates-regular text-center white">
+                        <a class="d-flex text-decoration-none white align-items-center justify-content-start"><ion-icon
+                                class="pe-3" name="location"></ion-icon>Baliwasan, Zamboanga City</a>
+                        <a class="d-flex text-decoration-none white align-items-center justify-content-start"><ion-icon
+                                class="pe-3" name="call"></ion-icon>+63 955 981 7137</a>
+                        <a class="d-flex text-decoration-none white align-items-center justify-content-start"
+                            href="mailto:rolaniejanetejada98@gmail.com"><ion-icon class="pe-3"
+                                name="mail"></ion-icon>rolaniejanetejada@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center flex-column pt-5 pb-3 ">
+            <div class="col-md-4 footer-p fs-6 d-flex justify-content-center montserrat-alternates-bold white">
+                <a class="text-decoration-none white" href="https://web.facebook.com/ktinmae.vds">Facebook</a> |
+                <a class="text-decoration-none white" href="mailto:kristinmaedelossantos98@gmail.com">Email</a>
+            </div>
+            <p class="pt-2 montserrat-alternates-regular text-center white">
+                © 2024 rjtedj. All rights reserved
+            </p>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const sections = document.querySelectorAll("section");
+            const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+            function isTopPortionInViewport(element) {
+                const rect = element.getBoundingClientRect();
+                return rect.top >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight);
+            }
+
+            let observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting || isTopPortionInViewport(entry.target)) {
+                        const navLink = document.querySelector(`.nav-link[href="#${entry.target.id}"]`);
+                        navLinks.forEach(link => link.classList.remove("active"));
+                        navLink.classList.add("active");
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            sections.forEach(section => observer.observe(section));
+        });
+
+    </script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

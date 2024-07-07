@@ -1,0 +1,21 @@
+<p copy="true">Text to copy</p>
+<button onclick="copyText()">Copy Text</button>
+
+<script>
+  function copyText() {
+  // Select the paragraph element
+  const paragraph = document.querySelector('p[copy="true"]');
+  
+  // Create a range and select the text inside the paragraph
+  const range = document.createRange();
+  range.selectNode(paragraph);
+  window.getSelection().addRange(range);
+  
+  // Execute copy command
+  document.execCommand('copy');
+  
+  // Deselect the text
+  window.getSelection().removeAllRanges();
+}
+
+</script>
